@@ -14,6 +14,8 @@ namespace Relen_Project
     internal class Program
     {
         IWebDriver driver = new ChromeDriver();
+        string ActualResult;
+        string ExpectedResult = "relen.io";
         static void Main(string[] args)
         {
 
@@ -28,6 +30,8 @@ namespace Relen_Project
         public void ExecuteTest()
         {
             driver.Manage().Window.Maximize();
+            ActualResult = driver.Title;
+            Assert.AreEqual(ActualResult, ExpectedResult);
             
 
 
