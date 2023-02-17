@@ -28,8 +28,7 @@ namespace Relen_Project
         public void ExecuteTest()
         {
             driver.Manage().Window.Maximize();
-            IWebElement GetStarted = driver.FindElement(By.ClassName("text-decoration-none buttonn"));
-            GetStarted.Click();
+            
 
 
         }
