@@ -1,0 +1,17 @@
+Acessing Relen website
+
+Test case 
+Test suite RW001
+Test case TC001
+Test case Summary - A user should be able to access the landing page of the relen website which is Relen.io
+Related requirement
+Prerequisites - The user should have a valid web browser.
+               - The user should have a good internet connection
+Test Procedure - Open the web browser and click on the search bar or "enter the url" icon
+               - Type in the correct website 
+Test Data - relen.io
+Expected Result - The user can access relen.io using the correct data
+Actual result - The automation and manual test results showed that the user can access the website using correct data.
+Status - Pass. Test case is executed and the actual results is same as expected result.
+Remarks/Recommendation - the server timeout is less than one minute using automation test on HTTP request thereby limiting the automation test duration.
+                        
